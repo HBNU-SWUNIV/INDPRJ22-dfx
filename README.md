@@ -27,7 +27,7 @@
   
 ## System Design
   - ### System Requirements
-   * ESP32를 활용한 센서데이터 무선 수집, WiFi Provisioning 사용
+    * ESP32를 활용한 센서데이터 무선 수집, WiFi Provisioning 사용
         * 모듈의 성능/기능을 고려하여 Espressif 사의 IoT 임베디드 SoC 칩 ESP32 사용
         * ESP32의 듀얼코어를 통해 데이터 수집과 송신을 동시에 수행
         * ESP32의 WiFi모듈을 통해 인터넷 환경에 연결
@@ -78,6 +78,7 @@
       * mysql-server (8.0.31-0ubuntu0.22.04.1)
     - Module
       * NodeMCU-32S Lua WiFi (ESP-32)
+      
   
 ## Conclusion
   - ### 웨어러블 모듈
